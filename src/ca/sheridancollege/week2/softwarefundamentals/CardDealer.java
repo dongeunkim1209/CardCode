@@ -19,6 +19,9 @@ public class CardDealer
       
       Card c1 = new Card("Jack", 7);
       c1.setSuit("Hearts");
+      
+      System.out.println(c1.getSuit());
+      System.out.println(c1.getValue());
    }
 }
 //i add comments..
